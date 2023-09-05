@@ -248,16 +248,7 @@ main .hero-last-img{
     letter-spacing: 1px;
     cursor: pointer;
 }
-.men-FreeShippingBanner {
-    border-right: 14px solid #fff;
-}
-.FreeShippingBanner {
-    width: 0;
-    height: 0;
-    margin: 24px 16px;
-    border-top: 12px solid transparent;
-    border-bottom: 12px solid transparent;
-}
+
 .men-FreeShippingBanner-sidebar-content {
     writing-mode: vertical-rl;
     transform: rotate(-180deg);
@@ -274,11 +265,16 @@ main .hero-last-img{
     display:inline-block;
 }
 
-.men-FreeShippingBanner-sidebar  > i{
-    font-size: 38px;
-    margin-left: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
+.men-FreeShippingBanner{
+    width: 0; 
+    height: 0; 
+    border-top: 6px solid transparent;
+    border-right: 18px solid transparent;
+    border-bottom: 18px solid white;
+    margin-top: 1.3rem;
+    margin-left: 1.3rem;
+    margin-bottom: 2rem;
+    transform:rotate(45deg);
 }
 
 /*------------------ ringing bell icon -----------------*/
