@@ -37,24 +37,28 @@ body{
     height: auto;
     width: auto;
     cursor: pointer;
+    /* border: 2px solid red; */
 }
 .men-card4{
     display: flex;
     height: auto;
     width: auto;
     cursor: pointer;
+    /* border: 2px solid red; */
 }
 .men-card5{
     display: flex;
     height: auto;
     width: 100%;
     cursor: pointer;
+    /* border: 2px solid red; */
 }
 .men-card6{
     display: flex;
     height: auto;
     width: 100%;
     cursor: pointer;
+    /* border: 2px solid red; */
 }
 .men-card7{
     display: flex;
@@ -602,4 +606,10 @@ header nav .home-iconbar .home-wishlist i{
   
     43% { transform: rotate(0); }
     100% { transform: rotate(0); }
-  }
+}
+
+  @media screen and (max-width:1000px){
+    .original, .return{
+        display: none;
+    }
+}
