@@ -231,88 +231,7 @@ body {
         .home-searchbar {
           display: none;
         }
-
-  
   }
-
-/* fixed sidebar  */
-
-.men-FreeShippingBanner-sidebar {
-    right: 0;
-}
-.men-FreeShippingBanner-sidebar {
-    position: fixed;
-    bottom: 130px;
-    width: 44px;
-    height: 288px;
-    background-color: #535766;
-    z-index: 6;
-    color: #fff;
-    letter-spacing: 1px;
-    cursor: pointer;
-}
-
-.men-FreeShippingBanner-sidebar-content {
-    writing-mode: vertical-rl;
-    transform: rotate(-180deg);
-    width: 36px;
-    padding: 4px;
-    height: 200px;
-    vertical-align: middle;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 700;
-    margin-block-end: 0;
-    margin-block-start: 0;
-    color: #fcfcfc;
-    display:inline-block;
-}
-
-.men-FreeShippingBanner{
-    width: 0; 
-    height: 0; 
-    border-top: 6px solid transparent;
-    border-right: 18px solid transparent;
-    border-bottom: 18px solid white;
-    margin-top: 1.3rem;
-    margin-left: 1.3rem;
-    margin-bottom: 2rem;
-    transform:rotate(45deg);
-}
-
-/* ringing bell icon */
-
-
-/* bell style */
-
-.bell_icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 40px;
-}
-
-.bell_icon img {
-    position: fixed;
-    border-radius: 100%;
-    bottom: 85px;
-    right: 20px;
-    display: block;
-    width: 40px;
-    height: 40px;
-    border: 1px solid rgb(40, 44, 63);
-    font-size: 25px;
-    margin: 30px auto 0;
-    color: #fff;
-    -webkit-animation: ring 3s 0.7s ease-in-out infinite;
-    -webkit-transform-origin: 50% 4px;
-    -moz-animation: ring 3s 0.7s ease-in-out infinite;
-    -moz-transform-origin: 50% 4px;
-    animation: ring 3s 0.7s ease-in-out infinite;
-    transform-origin: 50% 4px;
-}
-
 
 /* Section1 -kids-carousel */
 
@@ -575,6 +494,85 @@ body {
         height: auto;
     }
 }
+
+
+/* ------------------fixed sidebar --------------- */
+
+.men-FreeShippingBanner-sidebar {
+    right: 0;
+}
+
+.men-FreeShippingBanner-sidebar {
+    position: fixed;
+    bottom: 130px;
+    width: 44px;
+    height: 288px;
+    background-color: #535766;
+    z-index: 6;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.men-FreeShippingBanner-sidebar-content {
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    width: 36px;
+    padding: 4px;
+    height: 200px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    color: #fcfcfc;
+    display: inline-block;
+}
+
+.men-FreeShippingBanner {
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-right: 18px solid transparent;
+    border-bottom: 18px solid white;
+    margin-top: 1.3rem;
+    margin-left: 1.3rem;
+    margin-bottom: 2rem;
+    transform: rotate(45deg);
+}
+
+
+/*------------------ ringing bell icon -----------------*/
+
+.ringing-bell {
+    /* border: 2px solid red; */
+    width: 3rem;
+    position: fixed;
+    bottom: 5rem;
+    right: 1.2rem;
+}
+
+.box {
+    width: 44px;
+    height: 44px;
+    background-color: rgb(29, 132, 252);
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 2px 6px 12px 10px rgba(0, 0, 0, 0.10);
+}
+
+.ringing-bell .box img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    /* font-size: 20px; */
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    mix-blend-mode: multiply;
+}
+
 
 @-webkit-keyframes ring {
     0% {
